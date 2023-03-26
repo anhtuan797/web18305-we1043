@@ -1,8 +1,10 @@
 //nhập họ và tên
 let hoten = prompt(" nhập vào họ tên");
-//nhập giới tinh
-let gioitinh = prompt(" nhập vào giới tính");
+ //nhập giới tinh
+
+let gioitinh = prompt(" nhập vào giới tính"); 
 //trả về vị trí xuất hiện đầu tiên của một giá trị trong mảng
+
 x = hoten.indexOf(" ");
 y = hoten.lastIndexOf(" ");
 

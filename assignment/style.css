@@ -3,7 +3,7 @@ html{
   height: 100%;
 }
 body {
-  height: 100%;
+ 
   padding: 0px;
   margin: 0px;
   background-color: beige;
@@ -43,10 +43,11 @@ body {
 }
 
 
+
 .partners {
   height: 620px;
   background-color:bisque;
-  background-image: url(../img/popo.png);
+  background-image: url(../img/banner.png);
 }
 
 .service {
@@ -56,13 +57,14 @@ body {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  color: aliceblue;
 }
 
 .service-row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  float: left;
 }
 
 .item {
@@ -72,17 +74,29 @@ body {
   margin: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
   padding: 50px;
-}
+  
+  
 
+}
 .item-img {
-  background-image: url(../img/c22.jpg);
   background-color: antiquewhite;
   width: 100px;
   height: 100px;
 }
+.item-des {
+  margin-top: 5px;
+}
+
+
+
+img:hover{
+    box-shadow: 0px 20px red;
+    background-color: aqua;
+}
+
 .item-des {
   margin-top: 260px;
 }
@@ -120,6 +134,61 @@ body {
  float: left;
  
 }
+body{
+  background: lightblue;
+  font-family: 'Poppins', sans-serif;
+}
+#form{
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 12px;
+}
+#form h1{
+  color: black;
+  text-align: center;
+}
+#form button{
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px ;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+.input-control input:focus{
+  outline: 0;
+}
+.input-control.success input{
+  border-color: #09c309;
+}
+.input-control.error input{
+  border-color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+#wp-products {
+  padding-top:116px;
+  padding-bottom: 78px;
+  padding-left:134px;
+  padding-right:134px;
+}
 
-
+#wp-products h2 {
+  text-align: center;
+  margin-bottom: 76px;
+  font-size:32px;
+  color:#626a67;
+}
 

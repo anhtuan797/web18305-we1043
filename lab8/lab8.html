@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div><h1>Custom HTMLS Video Player</h1></div>
+        
+        <div>
+            <video id="myplayer" height="280" width="460">
+                <source src="D:\SOURCE-Code\web18305-we1043\lab8\video\mau-xanh-da-troi-1700.mp4" type="video/mp4" /> 
+            </video>
+            <div>
+                <button onclick="playpause()">Play/Pause</button>
+                <button onclick="Stopvideo()">Stop</button>
+                <button onclick="Replayvideo()">Replay</button>
+                <button onclick="IncreaseVolume()">Volume (+)</button>
+                <button onclick="DecreaseVolume()">Volume (-)</button>
+                <button onclick="MuteVolume()">Mute/Volume</button>
+            </div>
+        </div>
+    </div>
+    <script src="lab8.js"></script>
+</body>
+</html>

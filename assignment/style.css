@@ -58,38 +58,44 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   color: aliceblue;
+  text-align: center;
 }
 
 .service-row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  float: left;
+  align-items: center;
 }
 
 .item {
   height: fit-content;
-  width:200px;
-  background-color: brown;
+  width: 200px;
+  background-color: white;
   margin: 100px;
   display: flex;
   flex-direction: column;
-
+  align-items: center;
   justify-content: center;
   padding: 50px;
-  
-  
-
 }
+
+
 .item-img {
-  background-color: antiquewhite;
+  background-color: black;
   width: 100px;
   height: 100px;
 }
+
 .item-des {
   margin-top: 5px;
 }
-
+.price{
+  color: black;
+}
+.name{
+  color: black;
+}
 
 
 img:hover{
@@ -97,9 +103,6 @@ img:hover{
     background-color: aqua;
 }
 
-.item-des {
-  margin-top: 260px;
-}
 .info{
   position: absolute;
   bottom: 295px;
@@ -117,23 +120,7 @@ img:hover{
    
 }
 
-.khung.ten{
-  font-size: large;
-  color: white;
 
-
-}
-.khung{
-  border-radius: 10px;
-  box-shadow: 0px 5px black;
-  padding: 10px;
-  margin: 0px;
-  
-  border: 1px solid gray;
-  color: white;
- float: left;
- 
-}
 body{
   background: lightblue;
   font-family: 'Poppins', sans-serif;
@@ -190,5 +177,27 @@ body{
   margin-bottom: 76px;
   font-size:32px;
   color:#626a67;
+}
+.menu{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px ;
+  color: black;
+  border-radius: 50px;
+  background-color: aliceblue;
+
+ 
+}
+.container{
+  position: absolute;
+  top: 250px;
+  right: 1050px;
+  padding: 10px ;
+  color: black;
+  border-radius: 30px;
+  background-color: aliceblue;
+
+ 
 }
 
